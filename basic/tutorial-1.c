@@ -12,7 +12,8 @@ int main(int argc, char *argv[]) {
   gst_init (&argc, &argv);
 
   /* Build the pipeline */
-  pipeline = gst_parse_launch ("playbin uri=https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm", NULL);
+  //pipeline = gst_parse_launch ("playbin uri=https://www.freedesktop.org/software/gstreamer-sdk/data/media/sintel_trailer-480p.webm", NULL);
+  pipeline = gst_parse_launch ("playbin uri=file:///Users/frank/workspace/gstreamer/sintel_trailer-480p.mkv", NULL);
 
   /* Start playing */
   GstStateChangeReturn rst = gst_element_set_state (pipeline, GST_STATE_PLAYING);
