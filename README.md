@@ -27,7 +27,11 @@ gstreamer学习以及资料整理
     sudo apt-get install libgtk-3-dev 
 
     ```
++ CentOS
+    ```sh
+    yum install gstreamer*
 
+    ```
 
 #### Basic
 + [tutorial-1:Hello World](https://blog.csdn.net/sakulafly/article/details/19398257) 自动生成一个pipeline。
