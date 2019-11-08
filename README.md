@@ -30,7 +30,14 @@ gstreamer学习以及资料整理
 + CentOS
     ```sh
     yum install gstreamer*
+    
+    rpm -ivh http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm
 
+    yum install gstreamer-plugins-bad gstreamer-plugins-ugly xine-lib-extras-nonfree gstreamer-ffmpeg
+
+    yum -y install http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+
+    yum install libdvdcss gstreamer{,1}-plugins-ugly gstreamer-plugins-bad-nonfree gstreamer1-plugins-bad-freeworld
     ```
 
 #### Basic
