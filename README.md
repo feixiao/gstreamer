@@ -53,6 +53,7 @@ gstreamer学习以及资料整理
 
 
 #### 参考资料
++ [Ubuntu安装GStreamer](http://lifestyletransfer.com/how-to-install-gstreamer-on-ubuntu/)
 + [《GStreamer手册中文版》](http://vdisk.weibo.com/s/aCBK5zPhF_0pu)
 + [《GStreamer documentation》](https://gstreamer.freedesktop.org/documentation/)
 + [《Ubuntu安装gstreamer开发环境》](https://www.cnblogs.com/xiaojianliu/articles/9418398.html)
